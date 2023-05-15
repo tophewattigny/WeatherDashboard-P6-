@@ -1,0 +1,165 @@
+:root {
+    font-size: 16px;
+}
+
+#mainContainer {
+    margin: 0 auto;
+}
+
+#col-1 {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    justify-content: center;
+}
+
+#col.box {
+    background-color: blue;
+
+
+}
+
+header {
+    background: linear-gradient(to right, #3a38e4, #201174);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    transition: background-color 0.3s ease;
+
+
+}
+
+button[type="submit"]:hover {
+    background-color: #3a38e4;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input {
+    padding: .05rem;
+}
+
+input#city-input {
+    padding: 10px;
+    font-size: 18px;
+}
+
+label[for="city-input"] {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+button[type="submit"],
+input[type="text"] {
+    border-radius: 0.25rem;
+}
+
+.box {
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.forecast-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: calc(20% - 20px);
+    display: inline-block;
+    background: #201174;
+    color: white;
+}
+
+#search-history {
+    list-style: none;
+    padding: 0;
+}
+
+#search-history li {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #000000;
+    background-color: #ccc;
+    border-radius: .25rem;
+}
+
+#search-history li:hover {
+    background-color: #3a38e4;
+    color: white;
+}
+
+#citySearch {
+    border-bottom: 1px solid #ccc;
+    /* Add a bottom border */
+    padding-bottom: 20px;
+    /* Add some padding at the bottom */
+}
+
+#weather-info p {
+    margin-bottom: 0;
+}
+
+#current-weather {
+    background-color: transparent;
+
+    border: none;
+
+    padding: 0;
+
+    box-shadow: none;
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+
+#weather-info {
+
+    margin: 0 auto;
+
+
+
+    padding: 20px;
+
+
+}
+
+#historyContainer {
+    margin-bottom: 20px;
+}
+
+.weather-box {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#forecastContainer h2 {
+    visibility: hidden;
+    font-size: 2rem;
+    font-weight: 500;
+}
